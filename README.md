@@ -112,7 +112,6 @@ To run tests, run:
 Future changes:
 - Add animations and transitions
 - Add more styles and colors
-- Implement REACT component
 - Implement HOOKS
 - Implement Redux
 
