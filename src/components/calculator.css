@@ -26,18 +26,18 @@
   background-color: #e0e0e0;
 }
 
-.numberItems div:nth-child(13) {
+.numberItems button:nth-child(13) {
   grid-column: span 2;
 }
 
 .button {
   text-align: center;
   border: 1px solid #bababa;
-  padding: 1.8rem;
+  padding: 2.05rem;
   cursor: pointer;
 }
 
-.operatorItems {
-  flex-basis: 5.15rem;
+#op-button {
   background-color: #e18132;
+  width: 5rem;
 }
