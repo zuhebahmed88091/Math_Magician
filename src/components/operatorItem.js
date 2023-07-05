@@ -1,13 +1,16 @@
-const operatorArray = ['÷', '*', '-', '+', '='];
+import PropTypes from 'prop-types';
 
-const Operators = () => (
+const operatorArray = ['÷', 'x', '-', '+', '='];
+
+const Operators = ({ oprProps }) => (
   <div className="operatorItems">
     {operatorArray.map((operator) => (
-      <div className="button" key={operator}>
+      <button type="button" onClick={oprProps} className="button" id="op-button" key={operator}>
         {operator}
-      </div>
+      </button>
     ))}
   </div>
 );
+Operators.propTypes = { oprProps: PropTypes.func.isRequired };
 
 export default Operators;
