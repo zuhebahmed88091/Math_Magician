@@ -41,3 +41,13 @@
   background-color: #e18132;
   width: 5rem;
 }
+
+.quote-data {
+  list-style: none;
+  font-family: cursive;
+}
+
+.author {
+  text-align: right;
+  padding-right: 5rem;
+}
