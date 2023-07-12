@@ -1,7 +1,14 @@
 .calc-container {
-  margin-left: 30%;
   margin-top: 7%;
   margin-bottom: 7%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calc-container h1 {
+  font-family: cursive;
+  color: #03071e;
+  text-shadow: 2px 2px #370617;
 }
 
 .calculator {
@@ -50,4 +57,10 @@
 .author {
   text-align: right;
   padding-right: 5rem;
+}
+
+.dataQuotes {
+  margin-left: 4.4rem;
+  margin-right: 6rem;
+  margin-top: 7rem;
 }
