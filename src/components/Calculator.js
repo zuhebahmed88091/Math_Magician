@@ -19,6 +19,7 @@ const CalculatorInterface = () => {
 
   return (
     <div className="calc-container">
+      <h1>{'Let\'s do math...'}</h1>
       <section className="calculator">
         <div className="initial-value">
           { next || operation || total || 0 }

@@ -112,7 +112,6 @@ To run tests, run:
 Future changes:
 - Add animations and transitions
 - Add more styles and colors
-- Implement HOOKS
 - Implement Redux
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
