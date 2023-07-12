@@ -44,6 +44,10 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Experince a live demo](https://math-magician-5n5e.onrender.com).
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
@@ -94,6 +98,14 @@ To run tests, run:
 ```
   npm test
 ```
+### Deployment
+
+You can deploy this project using, Render:
+
+- I used Render to delpoy the project.
+- For more information, check [Render](https://render.com/) website.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
