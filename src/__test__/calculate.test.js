@@ -23,3 +23,15 @@ describe('Testing subtraction', () => {
     expect(calculation.total).toBe('45');
   });
 });
+
+describe('Test Calculate multiply', () => {
+  const obj = {
+    total: 6,
+    next: 2,
+    operation: 'x',
+  };
+  const calculation = calculate(obj, '=');
+  it('test for multiplication', () => {
+    expect(calculation.total).toBe('12');
+  });
+});
