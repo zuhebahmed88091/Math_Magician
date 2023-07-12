@@ -35,3 +35,15 @@ describe('Test Calculate multiply', () => {
     expect(calculation.total).toBe('12');
   });
 });
+
+describe('Test Calculate remainder', () => {
+  const obj = {
+    total: 5,
+    next: 3,
+    operation: '%',
+  };
+  const calculation = calculate(obj, '=');
+  it('test for remainder', () => {
+    expect(calculation.total).toBe('2');
+  });
+});
