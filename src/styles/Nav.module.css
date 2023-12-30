@@ -27,3 +27,12 @@
 .active {
   color: #ee9b00;
 }
+
+@media screen and (max-width: 768px) {
+  .nav h1 {
+    color: #ee9b00;
+    text-shadow: 2px 2px #bb3e03;
+    font-size: 1.2rem;
+  }
+
+}
